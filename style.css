@@ -1,0 +1,175 @@
+* {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Kraftstoff', sans-serif;
+
+    color: #CD853F;
+
+}
+
+body {
+    margin: 0;
+  
+    background-color: rgba(245, 245, 220, 0.668);
+}
+
+/* CSS della navbar */
+nav {
+    background-color: rgba(245, 245, 220, 0.668);
+}
+
+#navcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(246, 246, 189, 0.821);
+    border-radius: 70px;
+    padding: 10px;
+
+
+}
+
+#center img {
+    width: 80px;
+    height: 50px;
+}
+
+.info {
+    width: fit-content;
+    background-color: rgb(239, 239, 123);
+    border-radius: 49% 51% 98% 2% / 100% 40% 60% 0%;
+    padding: 8px 16px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#center {
+    width: 150px;
+    height: 100px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(239, 239, 123);
+    border-radius: 100% 0% 100% 0% / 50% 51% 49% 50%;
+    padding: 8px 16px;
+}
+
+/* piccola parentesi per sign in e carrello */
+
+#login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 5px;
+
+
+
+}
+
+.sign-in {
+    font-weight: bold;
+}
+
+
+
+/* inizio CSS delle card  */
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+
+}
+
+.card {
+    background-color: rgba(246, 246, 189, 0.821);
+    width: 300px;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-content h3 {
+    margin-bottom: auto;
+
+}
+
+.card button {
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: rgb(239, 239, 123);
+    border-radius: 20px;
+    border: 1px solid #CD853F;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    align-self: center;
+
+}
+
+.price {
+    align-self: self-end;
+
+
+}
+
+/* inizio CSS ultima sezione */
+.descrizione {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.descrizione h1 {
+    text-align: center;
+}
+
+
+li {
+    margin: 10px;
+}
+
+
+
+/* parte finale */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(246, 246, 189, 0.821);
+    padding: 10px;
+
+
+}
+
+.ape-maia img {
+    width: 80px;
+    ;
+    height: 60px;
+    border-radius: 100%;
+    border: 3px solid #CD853F;
+
+}
+
+
+
+
+
+

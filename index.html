@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/kraftstoff" rel="stylesheet">
+    <title>Esercizio flexbox sito miele</title>
+</head>
+<nav>
+    <div id="navcontainer">
+        <div class="info">
+            <p>Our honey</p>
+        </div>
+        <div class="info">
+            <p>Trace Honey</p>
+        </div>
+        <div id="center"><img src="assets/logo.png" alt="logo">
+            <p>shop</p>
+        </div>
+        <div class="info">
+            <p>Facilities</p>
+        </div>
+        <div class="info">
+            <p>Contacts</p>
+        </div>
+
+    </div>
+</nav>
+<!-- fine navbar inizio body  -->
+<body>
+   
+    <main>
+        <div id=login>
+            <div class="sign-in">
+            <p> <a href="http://"> sign-in</a></p>
+            </div>
+            <div class="cart">
+                <p>CART (0)</p>
+            </div>
+        </div>
+        <div class="cardcontainer">
+            <div class="card">
+                <img src="assets/honey.jpg" alt="image">
+                <div class="card-content">
+                    <h3>100% Bio Honey</h3>
+                    <p>Italian, not treated</p>
+                    <p class="price">7$/kg</p>
+                    <button class="add-to-cart" onclick="AggiornaCarrello()">Add to cart</button>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="assets/beer.jpg" alt="image">
+                <div class="card-content">
+                    <h3>Honey Lager</h3>
+                    <p>Italian, not treated</p>
+                    <p class="price">14$/l</p>
+                    <button class="add-to-cart" onclick="AggiornaCarrello()">Add to cart</button>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="assets/honey.jpg" alt="image">
+                <div class="card-content">
+                    <h3>100% Bio Honey</h3>
+                    <p>Italian, not treated</p>
+                    <p class="price">7$/kg</p>
+                    <button class="add-to-cart" onclick="AggiornaCarrello()">Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="descrizione">
+            <div id="container"></div> <!-- Contenitore per le api -->
+            <div >
+                <h1>Raw local Honey</h1>
+                <span>Hon’s Honey—a raw, unprocessed, delicious addition to your pantry. Raw honey is a good source of
+                    antioxidants with antibacterial and antifungal properties. Our honey is locally-sourced to help you
+                    build up your immunity to local pollen allergens—and it sustains our local bee population.</span>
+                <ul>
+                    <li>Add it to your tea for a delightful sweet treat</li>
+                    <li>Drizzle it over ice cream or cheese for a special delicacy</li>
+                    <li>Eat it by the spoonful to soothe sore throats</li>
+                    <li>Uniquely and beautifully handcrafted by women survivors</li>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="ape-maia">
+            <img src="assets/profile.jpg" alt="image">
+        </div>
+        <div>
+            <p>Bio honey®</p>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
